@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height:100vh;
+    background-color: rgb(0, 0, 2);
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    height: 80px;
+    padding: 8px 20px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(39, 26, 26);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    transition: all ease-in .3s;
+}
+
+a:hover{
+    border: 1px solid wheat;
+    padding: 6px 7px;
+    border-radius: 7px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in .7s;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+.About{
+    height: calc(100vh);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+    width: 100%;
+}
+
+.perent{
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+}
+
+.text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.text p{
+    margin-bottom: 10px;
+}
+
+.img{
+    width: 50%;
+}
+
+.main-image{
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.about-btn{
+    margin-bottom: 10px;
+}
+
+
+
+.card{
+    height: 50vh;
+    width: 100%;
+    transition: all ease-in .3s;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.03,1.02);
+    border-radius: 10px;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.card-body h5{
+    font-size: 30px;
+}
+
+
